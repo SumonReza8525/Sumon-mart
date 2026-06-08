@@ -16,10 +16,8 @@ const Header = () => {
       className={` bg-amber-400 flex items-center justify-between py-4 px-6 `}
     >
       {/* Logo div */}
-      <NavLink to="/">
-        <div
-          className={`p-1   rounded-tl-2xl rounded-br-2xl ${isMobile || "hidden"} bg-blue-300`}
-        >
+      <NavLink className={` ${isMobile || "hidden"} `} to="/">
+        <div className={`p-1   rounded-tl-2xl rounded-br-2xl  bg-blue-300`}>
           <div
             className={` px-4 py-1.5 space-x-1.5 bg-gray-400 rounded-tl-2xl rounded-br-2xl`}
           >
