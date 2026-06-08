@@ -5,7 +5,10 @@ const Navbar = ({ isMobile }) => {
     <ul
       className={`md:flex-row md:flex gap-2.5 md:gap-10 ${isMobile ? "hidden" : "flex-col"} transition-all`}
     >
-      <li className="hover:text-white ">
+      <li
+        className="hover:text-white
+       "
+      >
         <NavLink to="/">HOME</NavLink>
       </li>
       <li className="hover:text-white">
