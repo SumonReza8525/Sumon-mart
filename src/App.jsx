@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import HomePage from "./assets/pages/HomePage";
-import AboutPage from "./assets/pages/AboutPage";
-import ContactPage from "./assets/pages/ContactPage";
-import LoginPage from "./assets/pages/LoginPage";
-import CartPage from "./assets/pages/CartPage";
-import ProductsPage from "./assets/pages/ProductsPage";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import CartPage from "./pages/CartPage";
+import ContactPage from "./pages/ContactPage";
+import LoginPage from "./pages/LoginPage";
+import ProductsPage from "./pages/ProductsPage";
 
 const App = () => {
   return (
