@@ -9,8 +9,12 @@ const FeatureSection = () => {
 
         {/* Products div */}
         <div className="flex gap-8 md:gap-12 flex-col md:flex-row mt-8 items-center justify-around">
-          <div className="max-w-80 relative">
-            <img src="../../public/hero.jpg" alt="" className="rounded-xl" />
+          <div className="max-w-80   relative">
+            <img
+              src="/public/christopher-gower-_aXa21cf7rY-unsplash.jpg"
+              alt=""
+              className="rounded-xl "
+            />
             <p className="bg-white px-2 py-1 rounded-xl absolute top-2.5 right-3 text-cyan-500">
               mobile
             </p>
@@ -20,7 +24,11 @@ const FeatureSection = () => {
             </div>
           </div>
           <div className="max-w-80 relative">
-            <img src="../../public/hero.jpg" alt="" className="rounded-xl" />
+            <img
+              src="/public/domenico-loia-EhTcC9sYXsw-unsplash.jpg"
+              alt=""
+              className="rounded-xl"
+            />
             <p className="bg-white px-2 py-1 rounded-xl absolute top-2.5 right-3 text-cyan-500">
               mobile
             </p>
@@ -30,7 +38,11 @@ const FeatureSection = () => {
             </div>
           </div>
           <div className="max-w-80 relative">
-            <img src="../../public/hero.jpg" alt="" className="rounded-xl" />
+            <img
+              src="/public/lucas-favre-4x-67z_TaGo-unsplash.jpg"
+              alt=""
+              className="rounded-xl"
+            />
             <p className="bg-white px-2 py-1 rounded-xl absolute top-2.5 right-3 text-cyan-500">
               mobile
             </p>
@@ -40,7 +52,11 @@ const FeatureSection = () => {
             </div>
           </div>
           <div className="max-w-80 relative">
-            <img src="../../public/hero.jpg" alt="" className="rounded-xl" />
+            <img
+              src="/public/peter-bo-faMPQuSe4Wo-unsplash.jpg"
+              alt=""
+              className="rounded-xl"
+            />
             <p className="bg-white px-2 py-1 rounded-xl absolute top-2.5 right-3 text-cyan-500">
               mobile
             </p>

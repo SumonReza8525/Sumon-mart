@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <div
-      className={` bg-amber-400 flex items-center justify-between py-4 px-6 `}
+      className={` bg-purple-400 flex items-center justify-between py-4 px-6 `}
     >
       {/* Logo div */}
       <NavLink className={` ${isMobile || "hidden"} `} to="/">
