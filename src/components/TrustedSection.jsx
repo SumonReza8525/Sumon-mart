@@ -1,6 +1,6 @@
 const TrustedSection = () => {
   return (
-    <div className="bg-gray-100 min-h-40 flex flex-col justify-center items-center mb-20">
+    <div className="bg-gray-100 py-20 flex flex-col justify-center items-center mb-30 mt-30">
       <p className="md:text-2xl">Trusted By 1000+ Companies</p>
       <div className="flex  w-8/12 justify-between mt-6">
         <img

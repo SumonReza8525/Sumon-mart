@@ -2,7 +2,7 @@ import { Car, CircleDollarSign, LockIcon, ShipWheelIcon } from "lucide-react";
 
 const Servicex = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 w-8/12 mx-auto    gap-6 mb-20">
+    <div className="grid grid-cols-1 md:grid-cols-3 w-8/12 mx-auto    gap-6 mb-20 mt-30">
       <div className="bg-purple-400 h-40 rounded-2xl flex justify-center items-center flex-col gap-2 relative">
         <Car className="bg-white rounded-full w-10 h-10 p-2"></Car>
         <p className="text-white">Super Fast and Free Delivery</p>

@@ -1,6 +1,8 @@
+import { NavLink } from "react-router";
+
 const Footer = () => {
   return (
-    <div className=" bg-black pb-12 pt-16">
+    <div className=" bg-black pb-12 pt-16 relative mt-40">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-10 w-10/12 mx-auto mb-20">
         <div className="text-white">
           <h3 className="text-lg">Sumon Ecommerce</h3>
@@ -64,6 +66,19 @@ const Footer = () => {
           <p>PRIVACY POLICY</p>
           <p>TERMS & CONDITIONS</p>
         </div>
+      </div>
+
+      <div className="bg-yellow-50  w-[70%] rounded-xl absolute -top-16 left-1/2 -translate-x-1/2 flex justify-between px-6 py-8 gap-3">
+        <div className="text-xs md:text-base">
+          <p>Ready to get started?</p>
+          <p>Talk to us today</p>
+        </div>
+
+        <NavLink to="/contact">
+          <button className="bg-blue-600 px-4 py-2 text-white text-xs cursor-pointer">
+            GET STARTED
+          </button>
+        </NavLink>
       </div>
     </div>
   );
